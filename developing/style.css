@@ -1,0 +1,71 @@
+body {
+    background-image: linear-gradient(  
+        rgb(59,88,93),
+        rgb(29,40,42)
+    );                                              /* Cor de fundo com degrade | rgb= códigos das cores */
+    height: 100vh;                                  /* Tamanho que vai ser ocupado c/ degrade */
+    color: white;                                 /* Cor das letras */
+    font-family: sans-serif;                        /* Fonte das letras */
+    display: flex;                                  /* Metodo responsivo para todos os lados | padrão é em linha */
+    flex-direction: column;                         /* Direção principal = coluna */
+    align-items: center;                            /* Alinhamento vertical */
+}
+
+#below-cover {
+    display: flex;                                   /* Metodo responsivo */
+    flex-direction: row;                             /* Direção principal = linha */
+    justify-content: space-between;                  /* Espaços entre os itens */
+    align-items: center;              
+    margin: 2em 0 1em 0;               
+}
+
+#button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;                   /* Espaços entre os itens que se copoe dentro da div */
+    align-items: center
+}
+
+button {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+
+.button {font-size: 1.5em;}                         /* Alterando o tamanho da fonte */
+.button-navigate {font-size: 3em;}
+.button-biggest {font-size: 4em;}
+
+#cover {width: 450px;}
+
+#playlist-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;                         /* Alinhamento horizontal  */
+    margin: 1em 0 4em 0;                             /* Criando espaços com margin| funciona no sentido horário (12-3-6-9) */
+}
+
+#song-name {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.light-color {
+    color: rgb(139,153,156);
+}
+
+#progress-bar {
+    background-color: rgb(139,153,156);            /* Cor de fundo */
+    height: 4px;                                     /* Almenta a altura do bloco (div) vazio*/
+    width: 100%;                                     /* Determina o quanto vai ser apresentado do bloco (div) vazio */
+    border-radius: 15px;                             /* Adiciona uma curvatura nas pontas do bloco (div) */
+    margin-bottom: 1em;                              /* Criando espaço com margin pra baixo apenas*/
+}
+
+#current-progress {
+    --progress: 0%;                                  /* criando variavel pelo CSS */
+    background-color: white;
+    height: inherit;                                /* a propriedade puxa os mesmos caracteres da (div) pai */
+    width: var(--progress);                         /* chamando a variavel instanciada acima */
+    border-radius: inherit;                
+}
