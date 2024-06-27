@@ -6,6 +6,7 @@ const play = document.getElementById('play');                               //ta
 const next = document.getElementById('next');                               //tag botão next
 const previous = document.getElementById('previous');                       //tag botão previous
 const currentProgress = document.getElementById('current-progress');        //style do css da bara de progresso
+const progressContainer = document.getElementById('progress-container');    //tag da bara de progresso
 
 const music0 = {
     Name_music: "4am",
@@ -82,11 +83,19 @@ function nextSong(){
     playsong();
 }
 
-function updateProgressBar(){
+function updateProgressBar(){                                             //Aqui atualiza a barra de progresso da musica com o tempo de duração
     //currentTime = tempo atual da musica em segundos
     //duration = duração total da musica (3 min)
     const barwidth = (song.currentTime/song.duration)*100;                     
     currentProgress.style.setProperty('--progress', `${barwidth}%`);
+}
+
+function jumpTo(event){                                                   //Aqui atualiza a barra de progresso da musica após um click dentro do tempo de duração
+    //parametro event, usado para receber o click
+    const width = progressContainer.clientWidth;                          //clientWidth = largura total da barra de progresso
+    const clickPosition = event.offsetX;                                  //offsetX = defini aonde foi o click na largura da barra de progresso
+    const jumpToTime = (clickPosition/width)* song.duration;              //
+    song.currentTime = jumpToTime;                                        //
 }
 
 
@@ -96,3 +105,4 @@ play.addEventListener('click', playPauseDecider);           //click = evento de 
 previous.addEventListener('click', previousSong);
 next.addEventListener('click', nextSong);
 song.addEventListener('timeupdate', updateProgressBar);     //timeupdate = evento de atualização do tempo da musica
+progressContainer.addEventListener('click', jumpTo);

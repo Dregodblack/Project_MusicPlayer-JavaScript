@@ -54,12 +54,15 @@ button {
     color: rgb(139,153,156);
 }
 
+#progress-container {
+    padding-bottom: 1em;                             /* Criando espaço clicavel com padding*/
+}
+
 #progress-bar {
     background-color: rgb(139,153,156);            /* Cor de fundo */
     height: 4px;                                     /* Almenta a altura do bloco (div) vazio*/
     width: 100%;                                     /* Determina o quanto vai ser apresentado do bloco (div) vazio */
     border-radius: 15px;                             /* Adiciona uma curvatura nas pontas do bloco (div) */
-    margin-bottom: 1em;                              /* Criando espaço com margin pra baixo apenas*/
 }
 
 #current-progress {
