@@ -36,7 +36,10 @@ button {
 .button-navigate {font-size: 3em;}
 .button-biggest {font-size: 4em;}
 
-#cover {width: 450px;}
+#cover {
+    width: 450px;
+    height: 400px; 
+}
 
 #playlist-title {
     display: flex;
