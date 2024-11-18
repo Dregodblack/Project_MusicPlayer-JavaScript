@@ -1,19 +1,21 @@
-## Projeto Spotify
+<h1> Projeto Spotify </h1>
 
-Objetivo: Criar um reprodutor de música inspirado no Spotify.
+<h3>Objetivo: Criar um reprodutor de música inspirado no Spotify.</h3><br>
 
-Obs: Segue abaixo uma breve instrução de como funciona essa aplicação:
+<h4>Segue abaixo uma breve instrução de como funciona essa aplicação:</h4>
+<p>Na pasta (developing) se encontra essses arquivos "HTML, CSS e JavaScript" e dentro de cada um existe um roteiro baseados em códigos que se conectam entre si fazendo com que o software que esta em constante desenvolvimento seja funcional e bem simples de se usar. 
+Usando como base de uma pagina web do próprio html, junto com alguns estilos formados pelo css, e as manipulações sendo feitas pelo javaScript, nisso temos as chamadas que fazem conexão com a outra pasta, sendo ela (artifacts) ela contem arquivos do tipo imagens e musicas, sendo necesários pra execução da aplicação.</p>
 
-    Na pasta (developing) se encontra essses arquivos "HTML, CSS e JavaScript" e dentro de cada um existe um roteiro baseados em códigos que se conectam entre si fazendo com que o software que esta em constante desenvolvimento seja funcional e bem simples de se usar. 
-    Usando como base de uma pagina web do próprio html, junto com alguns estilos formados pelo css, e as manipulações sendo feitas pelo javaScript, nisso temos as chamadas que fazem conexão com a outra pasta, sendo ela (artifacts) ela contem arquivos do tipo imagens e musicas, sendo necesários pra execução da aplicação.
+<div align="center">
+    <img alt="imagem_execution_music" src="/artifacts/images/execution_music.png"></img>
+</div><br>
 
-    <img alt="imagem_execution_music" src="/artifacts/images/execution_music.jpg"></img>
+<h4>Segue abaixo uma descrição de como funciona cada parte do código:</h4>
 
-Obs: Segue alguns exemplos de como funciona cada parte do código dentro da pasta developing:
-
+<div>
     - Estrutura HTML:
-        O HTML define a estrutura do reprodutor de música, que inclue:
-
+            O HTML define a estrutura do reprodutor de música, que inclue:
+        
         Definição do arquivo:
             DOCTYPE: Tipo do documento, no caso HTML
             lang: Linguagem atribuida a pagina web ("pt-BR" português) ("en" inglês)
@@ -131,4 +133,5 @@ Obs: Segue alguns exemplos de como funciona cada parte do código dentro da past
     ------------------------------------------------------------------------------------------------------------
 
     - Estrutura JavaScript:
-    
+    </code>
+</div>
