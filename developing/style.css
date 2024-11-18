@@ -11,36 +11,6 @@ body {
     align-items: center;                            /* Alinhamento vertical */
 }
 
-#below-cover {
-    display: flex;                                   /* Metodo responsivo */
-    flex-direction: row;                             /* Direção principal = linha */
-    justify-content: space-between;                  /* Espaços entre os itens */
-    align-items: center;              
-    margin: 2em 0 1em 0;               
-}
-
-#button-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;                   /* Espaços entre os itens que se copoe dentro da div */
-    align-items: center
-}
-
-button {
-    background-color: inherit;
-    color: inherit;
-    border: none;
-}
-
-.button {font-size: 1.5em;}                         /* Alterando o tamanho da fonte */
-.button-navigate {font-size: 3em;}
-.button-biggest {font-size: 4em;}
-
-#cover {
-    width: 450px;
-    height: 400px; 
-}
-
 #playlist-title {
     display: flex;
     flex-direction: row;
@@ -51,6 +21,19 @@ button {
 #song-name {
     font-size: 1.5em;
     font-weight: bolder;
+}
+
+#cover {
+    width: 450px;
+    height: 400px; 
+}
+
+#below-cover {
+    display: flex;                                   /* Metodo responsivo */
+    flex-direction: row;                             /* Direção principal = linha */
+    justify-content: space-between;                  /* Espaços entre os itens */
+    align-items: center;              
+    margin: 2em 0 1em 0;               
 }
 
 .light-color {
@@ -75,3 +58,20 @@ button {
     width: var(--progress);                         /* chamando a variavel instanciada acima */
     border-radius: inherit;                
 }
+
+#button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;                   /* Espaços entre os itens que se copoe dentro da div */
+    align-items: center
+}
+
+button {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+
+.button {font-size: 1.5em;}                         /* Alterando o tamanho da fonte */
+.button-navigate {font-size: 3em;}
+.button-biggest {font-size: 4em;}
