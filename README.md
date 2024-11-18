@@ -2,8 +2,6 @@
 
 Objetivo: Criar um reprodutor de música inspirado no Spotify.
 
-Version 6 - createport_golive and Definition_README
-
 Obs: Segue abaixo uma breve instrução de como funciona essa aplicação:
 
     Na pasta (developing) se encontra essses arquivos "HTML, CSS e JavaScript" e dentro de cada um existe um roteiro baseados em códigos que se conectam entre si fazendo com que o software que esta em constante desenvolvimento seja funcional e bem simples de se usar. 
