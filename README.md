@@ -54,83 +54,83 @@ Usando como base de uma pagina web do próprio html, junto com alguns estilos fo
  
     O CSS define a aparência e a organização do reprodutor de música, ou seja, ele centraliza o conteúdo, ajusta cores, tamanhos e espaçamentos, e a aparência das funcionalidades.
 
-        Características do Corpo da Página (body)
+    Características do Corpo da Página (body)
 
-            background-image: Define um gradiente linear como fundo da página.
-            height: Define a altura do corpo da página para ocupar toda a altura da janela de visualização.
-            color: Define a cor do texto como branca.
-            font-family: Define a fonte do texto como sans-serif.
+        background-image: Define um gradiente linear como fundo da página.
+        height: Define a altura do corpo da página para ocupar toda a altura da janela de visualização.
+        color: Define a cor do texto como branca.
+        font-family: Define a fonte do texto como sans-serif.
+        display: Usa flexbox para layout responsivo.
+        flex-direction: Define a direção principal do layout como coluna.
+        align-items: Centraliza os itens verticalmente.
+
+        Características do Título da Playlist (playlist-title)
+
             display: Usa flexbox para layout responsivo.
-            flex-direction: Define a direção principal do layout como coluna.
+            flex-direction: Define a direção principal do layout como linha.
+            justify-content: Centraliza oconteúdo horizontalmente.
+            margin: Define a margem superior e inferior para espaçamento.
+                
+        Características do Nome da Música (song-name)
+
+            font-size: Define o tamanho dafonte.
+            font-weight: Define a espessura da 
+            fonte como mais grossa (bolder).
+
+        Características da Imagem de Capa (cover)
+
+            width: Define a largura da imagem.
+            height: Define a altura da imagem.
+            
+        Características da Div abaixo da Capa (below-cover)
+
+            display: Usa flexbox para layout responsivo.
+            flex-direction: Define a direção principal do layout como linha.
+            justify-content: Distribui espaço entre os itens.
             align-items: Centraliza os itens verticalmente.
+            margin: Define a margem superior e inferior para espaçamento.
 
-            Características do Título da Playlist (playlist-title)
+        Características de Cores Claras (light-color)
 
-                display: Usa flexbox para layout responsivo.
-                flex-direction: Define a direção principal do layout como linha.
-                justify-content: Centraliza oconteúdo horizontalmente.
-                margin: Define a margem superior e inferior para espaçamento.
-                    
-            Características do Nome da Música (song-name)
+            color: Define a cor do texto.
 
-                font-size: Define o tamanho dafonte.
-                font-weight: Define a espessura da 
-                fonte como mais grossa (bolder).
+        Características do Contêiner de Progresso (progress-container)
 
-            Características da Imagem de Capa (cover)
+            padding-bottom: Adiciona preenchimento na parte inferior para torná-lo clicável.
 
-                width: Define a largura da imagem.
-                height: Define a altura da imagem.
-                
-            Características da Div abaixo da Capa (below-cover)
+        Características da Barra de Progresso (progress-bar)
 
-                display: Usa flexbox para layout responsivo.
-                flex-direction: Define a direção principal do layout como linha.
-                justify-content: Distribui espaço entre os itens.
-                align-items: Centraliza os itens verticalmente.
-                margin: Define a margem superior e inferior para espaçamento.
+            background-color: Define a cor de fundo.
+            height: Define a altura da barra.
+            width: Define a largura da barra.
+            border-radius: Define bordas arredondadas.
 
-            Características de Cores Claras (light-color)
+        Características do Progresso Atual (current-progress)
 
-                color: Define a cor do texto.
+            --progress: Define uma variável CSS para o progresso.
+            background-color: Define a cor de fundo.
+            height: Herda a altura do elemento pai.
+            width: Define a largura com base na variável de progresso.
+            border-radius: Herda as bordas arredondadas do elemento pai.
+            
+        Características do Contêiner de Botões (button-container)
 
-            Características do Contêiner de Progresso (progress-container)
+            display: Usa flexbox para layout responsivo.
+            flex-direction: Define a direção principal do layout como linha.
+            justify-content: Distribui espaço ao redor dos itens.
+            align-items: Centraliza os itens verticalmente.
+            
+        Características dos Botões (button)
 
-                padding-bottom: Adiciona preenchimento na parte inferior para torná-lo clicável.
+            background-color: Define a cor de fundo como herdada do elemento pai.
+            color: Define a cor do texto como herdada do elemento pai.
+            border: Remove a borda.
+            
+        Características Específica dos Botões (.button)
 
-            Características da Barra de Progresso (progress-bar)
-
-                background-color: Define a cor de fundo.
-                height: Define a altura da barra.
-                width: Define a largura da barra.
-                border-radius: Define bordas arredondadas.
-
-            Características do Progresso Atual (current-progress)
-
-                --progress: Define uma variável CSS para o progresso.
-                background-color: Define a cor de fundo.
-                height: Herda a altura do elemento pai.
-                width: Define a largura com base na variável de progresso.
-                border-radius: Herda as bordas arredondadas do elemento pai.
-                
-            Características do Contêiner de Botões (button-container)
-
-                display: Usa flexbox para layout responsivo.
-                flex-direction: Define a direção principal do layout como linha.
-                justify-content: Distribui espaço ao redor dos itens.
-                align-items: Centraliza os itens verticalmente.
-                
-            Características dos Botões (button)
-
-                background-color: Define a cor de fundo como herdada do elemento pai.
-                color: Define a cor do texto como herdada do elemento pai.
-                border: Remove a borda.
-                
-            Características Específica dos Botões (.button)
-
-                .button: Define o tamanho da fonte.
-                .button-navigate: Define um tamanho maior para botões de navegação.
-                .button-biggest: Define o maior tamanho de fonte para o botão principal.
+            .button: Define o tamanho da fonte.
+            .button-navigate: Define um tamanho maior para botões de navegação.
+            .button-biggest: Define o maior tamanho de fonte para o botão principal.
 </div>
 
 
