@@ -15,6 +15,7 @@ const songTime = document.getElementById('song-time');                      //ta
 const totalTime = document.getElementById('total-time');                    //tag Tempo total da musica
 
 
+
 // Musicas & suas caracteristicas:
 const music0 = {
     Name_music: "4am",
@@ -213,6 +214,7 @@ function likeButtonClicked() {
     likeButtonManipulate();
     localStorage.setItem('Playlist', JSON.stringify(originalPlaylist));
 }
+
 
 
 // Executa as funções de acordo com os seus requisitos:
