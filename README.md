@@ -24,5 +24,5 @@ Nele, é possível Ouvir músicas, pausar e dar play quando quiser... também te
 
 ##
 
-Segue abaixo o Link da playlist do youtube no qual usei como base para criar esse projeto:
+Segue abaixo o Link da playlist do youtube no qual usei como base para criar esse projeto:<br>
 <a href="https://www.youtube.com/playlist?list=PLpdAy0tYrnKwSUtzFssaLV-KaOWAccdql"><b>Playlist Hashtag</b></a>
