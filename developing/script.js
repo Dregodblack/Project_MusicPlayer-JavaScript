@@ -37,13 +37,27 @@ const music2 = {
     liked: false
 };
 
+const music3 = {
+    Name_music: "Body",
+    artist: "Ja Rule",
+    file: "JaRule_Body",
+    liked: false
+};
+
+const music4 = {
+    Name_music: "Thunderstruck",
+    artist: "AC-DC",
+    file: "ACDC_Thunderstruck",
+    liked: false
+};
+
 // Variaveis auxiliares:
 let isPlaying = false;
 let isShuffled = false;
 let isRepeating = false;
 
 // Array de playlist das musicas com database do navegador:
-const originalPlaylist = JSON.parse(localStorage.getItem('Playlist')) ?? [music0, music1, music2];
+const originalPlaylist = JSON.parse(localStorage.getItem('Playlist')) ?? [music0, music1, music2, music3, music4];
 let sortedPlaylist = [...originalPlaylist];
 let index = 0;
 
