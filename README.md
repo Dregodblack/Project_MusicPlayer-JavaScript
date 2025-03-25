@@ -19,8 +19,8 @@ Usando como base de uma pagina web do próprio html, junto com alguns estilos fo
 </div><br>
 
 
-Como apresentação para o usuario, foi deixado como registro no reprodutor de música o nome do cantor e a banda
-Nele, é possível Ouvir músicas, pausar e dar play quando quiser... também tem a opção de trocar de música indo para frente ou para trás na playlist, outro ponto é que podemos deixar a música atual para se repetir quantas vezes quiser, e podemos também embaralhar a ordem da playlist ativando o modo aleatório, e por fim é possível curtir a música que acabou de ouvir ativando o coração de favoritos.
+Como apresentação para o usuario, foi deixado como registro no reprodutor de música o nome do cantor e a banda<br>
+Nele, também é possível ouvir músicas e pausar quando quiser... também tem a opção de trocar de música indo para frente ou para trás na playlist, outro ponto é que podemos deixar a música atual para se repetir quantas vezes quiser, e podemos também embaralhar a ordem da playlist ativando o modo aleatório, e por fim é possível curtir a música que acabou de ouvir ativando o coração de favoritos.
 
 ##
 
