@@ -11,11 +11,11 @@ Usando como base de uma pagina web do próprio html, junto com alguns estilos fo
 
 <!-- IMG_Execução -->
 <div align="center">
-    <img alt="imagem_Tema_spotify" src="/artifacts/images/theme/Tema_spotify1.png"></img>
+    <img alt="imagem_Tema1_playerMusic" src="/artifacts/images/theme/Tema1.png"></img>
 </div><br>
 
 <div align="center">
-    <img alt="imagem_Tema_spotify" src="/artifacts/images/theme/Tema_spotify2.png"></img>
+    <img alt="imagem_Tema2_playerMusic" src="/artifacts/images/theme/Tema2.png"></img>
 </div><br>
 
 
