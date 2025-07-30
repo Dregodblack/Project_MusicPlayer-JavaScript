@@ -1,6 +1,6 @@
-<h1> Projeto Spotify </h1>
+<h1> Projeto Music Player </h1>
 
-<h3>Objetivo: Criar um reprodutor de música inspirado no Spotify.</h3><br>
+<h3>Objetivo: Criar um reprodutor de música inspirado em aplicações atuais.</h3><br>
 
 <h4>- Breve instrução de como funciona essa aplicação:</h4>
 <p>Na pasta (developing) se encontra essses arquivos "HTML, CSS e JavaScript" e dentro de cada um existe um roteiro baseados em códigos que se conectam entre si fazendo com que o software que esta em constante desenvolvimento seja funcional e bem simples de se usar. 
